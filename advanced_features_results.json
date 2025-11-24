@@ -1,0 +1,10 @@
+{
+    "geodesic": {
+        "standard": 0.9480550289154053,
+        "enhanced": 1.0490862131118774
+    },
+    "causality": {
+        "no_causality": 0.5926799178123474,
+        "with_causality": 0.5950427055358887
+    }
+}

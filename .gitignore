@@ -1,0 +1,45 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and debug files
+*.log
+debug_*.txt
+stack_trace.txt
+
+# Model checkpoints
+*.pth
+*.pt
+
+# Data files (if large)
+data/
+*.npy
+*.h5
+*.hdf5
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+ui/frontend/node_modules/
+ui/frontend/dist/
+ui/frontend/.next/
+
+# Temporary files
+*.tmp
+*.bak
