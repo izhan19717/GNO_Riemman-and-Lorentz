@@ -412,14 +412,6 @@ If you use this code in your research, please cite:
 }
 ```
 
----
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please:
@@ -432,7 +424,7 @@ Contributions are welcome! Please:
 ## 📧 Contact
 
 For questions or collaboration:
-- Email: your.email@example.com
+- Email: izhankhilji19@gmail.com
 - Issues: [GitHub Issues](https://github.com/yourusername/geometric-deeponet/issues)
 
 ---
