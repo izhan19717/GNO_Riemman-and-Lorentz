@@ -1,0 +1,7 @@
+{
+    "best_test_loss": 0.0599599044237818,
+    "training_time": 592.058566570282,
+    "baseline_error": 0.1008,
+    "original_geometric_error": 1.2439,
+    "improvement_applied": "Coefficient standardization normalization"
+}

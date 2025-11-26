@@ -1,0 +1,51 @@
+{
+    "sphere": {
+        "baseline": {
+            "mean_error": 0.036455423650331796,
+            "std_error": 0.015583945015281203,
+            "training_time": 113.68543887138367
+        },
+        "full_geometric": {
+            "mean_error": 0.22642629388719798,
+            "std_error": 0.14137611252716062,
+            "training_time": 120.81217217445374
+        },
+        "no_spectral": {
+            "mean_error": 0.036455423650331796,
+            "std_error": 0.015583945015281203,
+            "training_time": 113.68543887138367
+        },
+        "no_geodesic": {
+            "mean_error": 0.036455423650331796,
+            "std_error": 0.015583945015281203,
+            "training_time": 113.68543887138367
+        },
+        "no_physics": {
+            "mean_error": 0.22642629388719798,
+            "std_error": 0.14137611252716062,
+            "training_time": 120.81217217445374
+        }
+    },
+    "minkowski": {
+        "baseline": {
+            "mean_error": 0.08957209267653525,
+            "std_error": 0.030433746511169663,
+            "training_time": 21.442270517349243
+        },
+        "full_causal": {
+            "mean_error": 0.08957209267653525,
+            "std_error": 0.030433746511169663,
+            "training_time": 21.442270517349243
+        },
+        "no_causal_features": {
+            "mean_error": 0.08957209267653525,
+            "std_error": 0.030433746511169663,
+            "training_time": 21.442270517349243
+        },
+        "no_causality_loss": {
+            "mean_error": 0.08957209267653525,
+            "std_error": 0.030433746511169663,
+            "training_time": 21.442270517349243
+        }
+    }
+}

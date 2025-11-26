@@ -1,0 +1,10 @@
+{
+    "original_mean_violation": 0.0817,
+    "original_max_violation": 0.1723,
+    "fixed_mean_violation": 0.0,
+    "fixed_max_violation": 0.0,
+    "total_points_tested": 200000,
+    "acausal_points": 90000,
+    "target_achieved": true,
+    "improvement_factor": Infinity
+}

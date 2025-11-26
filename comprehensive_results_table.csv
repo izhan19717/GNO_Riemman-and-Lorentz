@@ -1,0 +1,7 @@
+Metric,Sphere (K>0),Flat (K=0),Hyperbolic (K<0),Minkowski (Lorentzian)
+Baseline L² Error,0.1008,N/A,N/A,0.0637
+Geometric L² Error,1.2439,N/A,281850022.0000,0.0637
+Improvement (%),Baseline Better,N/A,N/A,Similar
+Sample Efficiency Exponent,α = -0.560,N/A,Not measured,α = -0.009
+Symmetry Property,SO(3) Equivariance,Translation Invariance,Möbius Invariance,Causality Preservation
+Curvature,K = +1/R²,K = 0,K = -1/R²,Indefinite Signature

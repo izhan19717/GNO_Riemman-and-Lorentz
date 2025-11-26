@@ -1,0 +1,35 @@
+{
+    "root_cause": "PDE loss was a placeholder (L2 regularization), not actual Laplace-Beltrami operator",
+    "evidence": {
+        "code_line": "loss_pde = torch.mean(u_pred ** 2) * 0.01  # Placeholder",
+        "file": "geometric_deeponet_sphere.py",
+        "line_number": 329
+    },
+    "why_it_didnt_help": [
+        "Not computing actual PDE residual ||\u0394u - f||",
+        "Just penalizing large predictions (L2 regularization)",
+        "No connection to physics of Poisson equation",
+        "Weak weight (0.01) made it negligible"
+    ],
+    "correct_implementation_needed": [
+        "Compute Laplace-Beltrami operator via automatic differentiation",
+        "Calculate residual: ||\u0394u - f|| where f is source function",
+        "Use proper collocation points on sphere",
+        "Balance loss weights appropriately (see HINTS paper)"
+    ],
+    "recommendations": {
+        "immediate": [
+            "Implement proper Laplace-Beltrami computation using torch.autograd",
+            "Use spherical coordinates (\u03b8, \u03c6) for differentiation",
+            "Formula: \u0394u = (1/sin\u00b2\u03b8)\u2202\u00b2u/\u2202\u03c6\u00b2 + (1/sin\u03b8)\u2202/\u2202\u03b8(sin\u03b8 \u2202u/\u2202\u03b8)",
+            "Sample collocation points uniformly on sphere"
+        ],
+        "advanced": [
+            "Implement adaptive loss weighting (from HINTS paper)",
+            "Use more collocation points than data points",
+            "Consider soft vs hard physics constraints",
+            "Validate PDE residual against numerical methods"
+        ]
+    },
+    "expected_impact": "With proper implementation, PDE loss could provide 10-30% improvement by enforcing physical consistency"
+}

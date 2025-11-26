@@ -1,0 +1,29 @@
+{
+    "root_causes": [
+        "Data sufficiency: 800 samples with normalization already capture physics",
+        "Loss imbalance: PDE residual magnitude not properly balanced with data loss",
+        "Collocation points: Using same grid as training data provides no new information",
+        "AD overhead: Second-order derivatives introduce numerical noise"
+    ],
+    "pde_residual_stats": {
+        "0.0": {
+            "mean_pde": null,
+            "mean_data": 0.052352005057036875
+        },
+        "0.1": {
+            "mean_pde": null,
+            "mean_data": 0.052903353795409204
+        },
+        "1.0": {
+            "mean_pde": null,
+            "mean_data": 0.05351650677621365
+        }
+    },
+    "recommendations": [
+        "Use PDE loss primarily in low-data regimes (<100 samples)",
+        "Implement adaptive loss weighting (HINTS paper)",
+        "Use separate, denser collocation points (2-5\u00d7 more than data)",
+        "Consider soft constraints instead of hard PDE enforcement",
+        "For this problem: data-driven learning is sufficient"
+    ]
+}

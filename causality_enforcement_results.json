@@ -1,0 +1,22 @@
+{
+    "hard": {
+        "mean_violation": 0.0,
+        "max_violation": 0.0
+    },
+    "soft_lambda1.0": {
+        "mean_violation": 0.005379373896045282,
+        "max_violation": 0.021468259394168854
+    },
+    "soft_lambda10.0": {
+        "mean_violation": 0.0012936312339597326,
+        "max_violation": 0.0043943580240011215
+    },
+    "soft_lambda100.0": {
+        "mean_violation": 0.0007503444522016627,
+        "max_violation": 0.0033689443953335285
+    },
+    "soft_lambda1000.0": {
+        "mean_violation": 0.000685142762685085,
+        "max_violation": 0.002531495876610279
+    }
+}

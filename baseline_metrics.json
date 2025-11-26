@@ -1,0 +1,6 @@
+{
+    "mean_relative_l2_error": 0.10079125244170427,
+    "std_relative_l2_error": 0.07374906727470687,
+    "mean_max_error": 0.05738450514152646,
+    "mean_inference_time_ms": 1.416516091142382
+}

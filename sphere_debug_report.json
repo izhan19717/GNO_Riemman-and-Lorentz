@@ -1,0 +1,17 @@
+{
+    "coefficient_stats": {
+        "mean": 0.1604415327310562,
+        "std": 0.2703374922275543,
+        "min": 1.3690636591561897e-19,
+        "max": 2.1530659198760986,
+        "range": 2.1530659198760986,
+        "has_nan": false,
+        "has_inf": false
+    },
+    "issues_identified": [
+        "Coefficients not zero-centered (mean=0.160)"
+    ],
+    "recommendations": [
+        "Center coefficients by subtracting mean"
+    ]
+}
