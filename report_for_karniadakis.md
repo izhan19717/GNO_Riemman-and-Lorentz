@@ -31,7 +31,7 @@ This report presents a comprehensive investigation of Geometric Deep Operator Ne
 
 ## Phase 1-5: Original Experiments
 
-*(See [final_research_report.md](file:///C:/Users/Legion/.gemini/antigravity/brain/a9a33f04-9d93-4205-bb6b-fa5d49ad8fe6/final_research_report.md) for complete details)*
+*(See [final_research_report.md](final_research_report.md) for complete details)*
 
 ### Summary of Original Results
 
@@ -86,7 +86,7 @@ coeffs_normalized = (coeffs - mean) / std
 - Consistent performance across 5 random seeds
 - Geometric features now **outperform** baseline!
 
-![Normalized Training Curves](file:///c:/Operator%20Learming%20Exp/normalized_training_curves.png)
+![Normalized Training Curves](normalized_training_curves.png)
 *Figure 6.1: Training curves after normalization fix. The geometric DeepONet now converges smoothly to 0.0600, significantly better than the baseline's 0.1008.*
 
 **Critical Lesson:** **Feature normalization is non-negotiable for geometric neural networks.**
@@ -160,7 +160,7 @@ loss_pde = ||Δu - f||²
 > For this problem (deterministic Poisson with 800 samples), **data-driven learning is optimal**.  
 > PDE loss would help more in: low-data regimes (<100 samples), extrapolation tasks, or with proper adaptive weighting.
 
-![PDE Loss Failure Analysis](file:///c:/Operator%20Learming%20Exp/pde_loss_failure_analysis.png)
+![PDE Loss Failure Analysis](pde_loss_failure_analysis.png)
 *Figure 6.2: Four-panel diagnostic showing why PDE loss didn't help: (1) residual magnitudes, (2) loss imbalance, (3) test error comparison, (4) summary of findings.*
 
 ---
@@ -223,7 +223,7 @@ u_pred = u_pred * causal_mask
 **Key Achievement:**
 > **Causality is now guaranteed by construction** with zero performance trade-off!
 
-![Causality Fix Verification](file:///c:/Operator%20Learming%20Exp/minkowski_causality_fix_verification.png)
+![Causality Fix Verification](minkowski_causality_fix_verification.png)
 *Figure 6.3: Before/after comparison showing elimination of all causality violations through hard architectural constraints.*
 
 ---
