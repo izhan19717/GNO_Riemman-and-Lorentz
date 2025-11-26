@@ -353,16 +353,16 @@ Synthesize findings across all geometries and prepare publication-quality materi
 
 **Visualizations:**
 
-![Figure 1 Framework](cross_geometry_comparison.png)
+![Figure 1 Framework](figure1_framework_final.png)
 *Figure 5.3: Main Figure 1 - Geometric DeepONet Framework. Top row shows geometric visualizations (sphere, hyperbolic, Minkowski). Second row shows input encodings (spectral, graph, Fourier). Third row shows branch networks. Bottom row shows trunk networks with geometric features. This comprehensive schematic illustrates the complete architecture across all three geometries, suitable for publication.*
 
-![Figure 2 Sample Efficiency](sample_efficiency_plot.png)
+![Figure 2 Sample Efficiency](figure2_sample_efficiency.png)
 *Figure 5.4: Main Figure 2 - Sample Efficiency Comparison. Log-log plots for sphere (left) and Minkowski (right) showing geometric vs baseline performance across training set sizes. Power-law fits are overlaid. This figure clearly demonstrates where geometric features help (or don't help) and is publication-ready with proper axis labels, legends, and error bars.*
 
-![Figure 3 Structure Preservation](causality_visualization.png)
+![Figure 3 Structure Preservation](figure3_structure_preservation.png)
 *Figure 5.5: Main Figure 3 - Geometric Structure Preservation. Three panels demonstrate: (left) SO(3) equivariance on sphere via rotation test, (center) Möbius invariance in hyperbolic space via geodesic patterns, (right) causality preservation in Minkowski via light cone structure. Each panel visually illustrates the key geometric property being preserved.*
 
-![Figure 4 Predictions](unified_validation_plot.png)
+![Figure 4 Predictions](figure4_predictions.png)
 *Figure 5.6: Main Figure 4 - Prediction Quality Grid. 3×3 grid showing input functions, predictions, and errors for all three geometries (rows: sphere, hyperbolic, Minkowski; columns: input, prediction, error). Consistent color scales enable direct comparison. This comprehensive figure demonstrates model performance across all problem domains in a single, publication-ready visualization.*
 
 ---
