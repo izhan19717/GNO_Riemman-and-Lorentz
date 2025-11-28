@@ -297,10 +297,10 @@ Extend geometric DeepONet framework to hyperbolic space using Poincaré disk mod
 
 ---
 
-## Phase 5: Unified Analysis & Publication Preparation
+## Phase 5: Unified Analysis
 
 ### Objective
-Synthesize findings across all geometries and prepare publication-quality materials.
+Synthesize findings across all geometries .
 
 ### Experiments Conducted
 
@@ -346,8 +346,8 @@ Synthesize findings across all geometries and prepare publication-quality materi
 ![Theoretical Validation](theoretical_validation.png)
 *Figure 5.2: Theoretical validation of power-law convergence. Left: Sample efficiency showing error ~ N^α for different geometries. Sphere baseline (blue) achieves α=-0.560, while Minkowski (orange) shows α=-0.009. The dashed line shows theoretical N^(-0.5) scaling. Right: Network capacity analysis showing error vs network width p. Both plots confirm that baseline models follow expected theoretical scaling laws.*
 
-#### Experiment 5.2: Publication-Quality Figures
-**Design:** Created 4 main figures and supplementary materials for academic publication.
+#### Experiment 5.2: System figures
+**Design:** Created 4 main figures and supplementary materials .
 
 **Outputs:**
 - Figure 1: Framework schematic across 3 geometries
@@ -356,11 +356,6 @@ Synthesize findings across all geometries and prepare publication-quality materi
 - Figure 4: Prediction quality (3×3 grid)
 - Supplementary: Training dynamics
 
-**Standards:**
-- Vector graphics (PDF, 300 DPI)
-- Colorblind-friendly palette
-- Consistent typography
-- Professional layout
 
 **Visualizations:**
 
