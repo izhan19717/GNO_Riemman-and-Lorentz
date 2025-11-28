@@ -328,6 +328,9 @@ Synthesize findings across all geometries .
 
 **Key Finding:** Specialized equivariant operators (SFNO) dramatically outperform coordinate-based approaches on the sphere.
 
+![SFNO Comparison](sfno_comparison.png)
+*Figure 5.7: SFNO vs DeepONet performance comparison. The bar chart (right) visually demonstrates the orders-of-magnitude improvement achieved by the equivariant SFNO architecture.*
+
 **Theoretical Validation:**
 - Power-law convergence confirmed for baseline models
 - Geometric models show variable convergence rates
