@@ -315,7 +315,18 @@ Synthesize findings across all geometries and prepare publication-quality materi
 | Geometric Error | 1.2439 | 0.0029 | 0.0637 |
 | Sample Efficiency | α = -0.560 | Not measured | α = -0.009 |
 | Symmetry | SO(3) Equivariance | Möbius Invariance | Causality |
+| Symmetry | SO(3) Equivariance | Möbius Invariance | Causality |
 | Curvature | K = +1/R² | K = -1/R² | Indefinite |
+
+### State-of-the-Art Comparison (Sphere)
+
+| Method | Test Error | Improvement vs Baseline |
+|--------|------------|-------------------------|
+| Baseline DeepONet | 0.1008 | - |
+| Geometric DeepONet | 0.0600 | 40.5% |
+| **SFNO (State-of-the-Art)** | **0.000007** | **99.99% (10,000×)** |
+
+**Key Finding:** Specialized equivariant operators (SFNO) dramatically outperform coordinate-based approaches on the sphere.
 
 **Theoretical Validation:**
 - Power-law convergence confirmed for baseline models

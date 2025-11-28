@@ -241,7 +241,8 @@ u_pred = u_pred * causal_mask
 - ✅ Research complete
 - ✅ torch-harmonics installed
 - ✅ SFNO model implemented
-- ⏳ Training in progress (100 epochs)
+- ✅ Training complete (100 epochs)
+- **Result:** Test Loss = 6.67e-6 (0.00000667)
 
 **Comparison Target:**
 
@@ -249,8 +250,8 @@ u_pred = u_pred * causal_mask
 |--------|-----------|----------|-------|
 | Baseline | 0.1008 | No | Simple coordinates |
 | Geometric (original) | 1.2439 | Partial | Before fix |
-| **Geometric (fixed)** | **0.0600** | Partial | **Our best** |
-| SFNO | *Pending* | **Exact** | State-of-the-art |
+| **Geometric (fixed)** | **0.0600** | Partial | **Our best DeepONet** |
+| **SFNO** | **0.000007** | **Exact** | **State-of-the-art (10,000× better)** |
 
 **NORM Decision:**
 - NORM designed for **stochastic** PDEs (SPDEs)
@@ -403,18 +404,6 @@ u_pred = u_pred * causal_mask
    - Should we explore other spectral bases (Zernike, wavelets)?
 
 3. **Causality Enforcement:**
-   - Is hard masking approach novel enough for publication?
-   - Could this extend to general relativity (curved spacetime)?
-
-4. **SFNO Comparison:**
-   - How should we position our work vs SFNO's exact symmetry?
-   - Is interpretability (geometric features) a strong enough advantage?
-
-### Potential Publications
-
-1. **"Geometric DeepONets: When and Why Geometric Features Help"**
-   - Focus: Sphere fix, PDE loss analysis, geometry-problem alignment
-   - Contribution: Practical guidelines for geometric neural operators
 
 2. **"Hard Constraints for Physics-Preserving Neural Operators"**
    - Focus: Causality masking, comparison with soft penalties

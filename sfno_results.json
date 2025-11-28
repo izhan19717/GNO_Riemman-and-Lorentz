@@ -1,0 +1,16 @@
+{
+    "sfno": {
+        "best_test_loss": 6.667711641757006e-06,
+        "final_test_loss": 6.674349903662985e-06,
+        "training_time_seconds": 154178.39913344383,
+        "training_time_minutes": 2569.6399855573973,
+        "n_parameters": 33554625,
+        "n_samples": 800
+    },
+    "comparison": {
+        "baseline": 0.1008,
+        "geometric_original": 1.2439,
+        "geometric_fixed": 0.06,
+        "sfno": 6.667711641757006e-06
+    }
+}
