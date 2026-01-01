@@ -86,7 +86,7 @@ coeffs_normalized = (coeffs - mean) / std
 - Consistent performance across 5 random seeds
 - Geometric features now **outperform** baseline!
 
-![Normalized Training Curves](normalized_training_curves.png)
+![Normalized Training Curves](../results/plots/normalized_training_curves.png)
 *Figure 6.1: Training curves after normalization fix. The geometric DeepONet now converges smoothly to 0.0600, significantly better than the baseline's 0.1008.*
 
 **Critical Lesson:** **Feature normalization is non-negotiable for geometric neural networks.**
@@ -160,7 +160,7 @@ loss_pde = ||Δu - f||²
 > For this problem (deterministic Poisson with 800 samples), **data-driven learning is optimal**.  
 > PDE loss would help more in: low-data regimes (<100 samples), extrapolation tasks, or with proper adaptive weighting.
 
-![PDE Loss Failure Analysis](pde_loss_failure_analysis.png)
+![PDE Loss Failure Analysis](../results/plots/pde_loss_failure_analysis.png)
 *Figure 6.2: Four-panel diagnostic showing why PDE loss didn't help: (1) residual magnitudes, (2) loss imbalance, (3) test error comparison, (4) summary of findings.*
 
 ---
@@ -223,7 +223,7 @@ u_pred = u_pred * causal_mask
 **Key Achievement:**
 > **Causality is now guaranteed by construction** with zero performance trade-off!
 
-![Causality Fix Verification](minkowski_causality_fix_verification.png)
+![Causality Fix Verification](../results/plots/minkowski_causality_fix_verification.png)
 *Figure 6.3: Before/after comparison showing elimination of all causality violations through hard architectural constraints.*
 
 ---
@@ -244,7 +244,7 @@ u_pred = u_pred * causal_mask
 - ✅ Training complete (100 epochs)
 - **Result:** Test Loss = 6.67e-6 (0.00000667)
 
-![SFNO Comparison](sfno_comparison.png)
+![SFNO Comparison](../results/plots/sfno_comparison.png)
 *Figure 8.1: SFNO vs DeepONet performance. Left: SFNO training curves showing rapid convergence. Right: Bar chart comparing test error. SFNO (0.0000) is barely visible next to the others, highlighting its massive superiority.*
 
 **Comparison Target:**
